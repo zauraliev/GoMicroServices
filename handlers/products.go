@@ -34,6 +34,14 @@ func (p *Products) getProducts(rw http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func updateProducts() {
+func createProduct() {
+	// Creating a New Product
+}
 
+func updateProduct(pid int) {
+	// Updating an Existing Product
+}
+
+func deleteProduct(pid int) {
+	// Deleting an Existing Product
 }
